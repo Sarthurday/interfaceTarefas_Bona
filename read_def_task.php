@@ -1,8 +1,8 @@
 <?php
-include 'config.php';
+include 'config_def_task.php';
 
-$sql = "SELECT * FROM tarefas";
-$result = $conn->query($sql);
+$taskRead = "SELECT * FROM tarefas";
+$result = $conn->query($taskRead);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
