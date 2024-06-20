@@ -9,23 +9,7 @@
 <div class="container">
 <h2 class="mt-5">Gerenciador de Tarefas</h2>
 <form action="create.php" method="post">
-    <!-- <div class="form-group">
-        <label for="id">ID</label>
-        <input type="text" name="id" class="form-control" id="id" required>
-    </div> -->
     <div class="form-group">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" class="form-control" id="nome" required>
-    </div>
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" name="email" class="form-control" id="email" required>
-    </div>
-    <div class="form-group">
-        <label for="cargo">Cargo</label>
-        <input type="text" name="cargo" class="form-control" id="cargo" required>
-    </div>
-    <!-- <div class="form-group">
         <label for="titulo">Título da Tarefa</label>
         <input type="text" name="titulo" class="form-control" id="titulo" required>
     </div>
@@ -44,7 +28,7 @@
     <div class="form-group">
         <label for="resp">Responsável</label>
         <input type="text" name="resp" class="form-control" id="resp"></label>
-    </div> -->
+    </div>
     <button type="submit" class="btn btn-primary">Cadastrar</button>
 </form>
         
